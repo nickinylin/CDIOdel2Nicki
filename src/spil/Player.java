@@ -3,7 +3,8 @@ package spil;
 public class Player {
 
 	private String name;
-	private int points;
+	//private int points = 1000;
+	private Bank b = new Bank();
 
 	public Player(String name) {
 		this.name = name;
@@ -18,15 +19,16 @@ public class Player {
 		this.name = name;
 	}
 
-
 	public int getPoints() {
-		return points;
+		return b.getPlayerScore();
 	}
-
 
 	public void setPoints(int points) {
-		this.points = points;
+		b.setPlayerScore(points);
 	}
+
+
+
 
 
 

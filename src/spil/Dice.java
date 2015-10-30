@@ -8,6 +8,8 @@ public class Dice {
 		int result = ((int) (Math.random()*6)+1);
 		return result;	
 	}
+	
+	
 
 
 	
