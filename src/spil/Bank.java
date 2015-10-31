@@ -1,6 +1,5 @@
 package spil;
 
-import java.util.Arrays;
 
 public class Bank {
 
